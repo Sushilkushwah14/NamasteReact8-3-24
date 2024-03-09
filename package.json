@@ -1,0 +1,30 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "this react by sushil kushwah",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sushilkushwah14/NamasteReact8-3-24.git"
+  },
+  "keywords": [],
+  "author": "sushil kushwah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sushilkushwah14/NamasteReact8-3-24/issues"
+  },
+  "homepage": "https://github.com/Sushilkushwah14/NamasteReact8-3-24#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
