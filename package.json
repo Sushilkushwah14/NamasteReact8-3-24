@@ -4,6 +4,8 @@
   "description": "this react by sushil kushwah",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "Build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,14 +19,14 @@
     "url": "https://github.com/Sushilkushwah14/NamasteReact8-3-24/issues"
   },
   "homepage": "https://github.com/Sushilkushwah14/NamasteReact8-3-24#readme",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5"
-  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 versions"
-  ]
+  ],
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
