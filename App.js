@@ -1,20 +1,38 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+// const heading=React.createElement(
+//     "h1",{id:"heading"},
+//     "namaste react"
+// )
+// console.log(heading);
 
+//they are same 
 
-const parent=React.createElement("div",{id:"parent"},[
-    React.createElement("div",{id:"child"},[
-        React.createElement("h1",{},"this is namaste react!"),
-        React.createElement("h2",{},"i am h2 tag hii sushil")
-    ]),
-    React.createElement("div",{id:"child2"},[
-        React.createElement("h1",{},"i am h1 tag"),
-        React.createElement("h2",{},"i am h2 tag")
-    ]),
+const Title=()=>(
+            [
+               <h1 id="heading" className="root" tabIndex="1 ">
+                   Using title componenet inside component
+               </h1>,
+            ]
+        )
+const Title2=(
+            [
+               <h1 id="heading" className="root" tabIndex="1 ">
+                   Using title2 js inside component
+               </h1>,
+            ]
+        )
 
-]);
-
-
+const Heading=()=>(
+    <div id="container">
+       <Title/>
+       {Title()}
+       {Title2}
+       {console.log("jai balaji")}  
+      <h1 className="heading">Namaste React by H1</h1>
+    </div>
+)
 ReactDOM.createRoot(document.getElementById("root"))
-.render(parent)
+    .render(<Heading/>)
+    
